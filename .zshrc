@@ -65,6 +65,7 @@ plugins=(
   osx
   python
   pip
+  vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
