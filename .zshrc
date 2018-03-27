@@ -62,6 +62,7 @@ plugins=(
   git
   zsh-autosuggestions
   docker
+  cargo
   osx
   python
   pip
