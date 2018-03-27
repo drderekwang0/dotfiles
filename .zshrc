@@ -63,6 +63,8 @@ plugins=(
   zsh-autosuggestions
   docker
   osx
+  python
+  pip
 )
 
 source $ZSH/oh-my-zsh.sh
