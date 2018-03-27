@@ -66,6 +66,7 @@ plugins=(
   python
   pip
   vi-mode
+  yarn
 )
 
 source $ZSH/oh-my-zsh.sh
