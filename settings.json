@@ -1,5 +1,7 @@
 {
     "editor.fontSize": 18,
     "editor.fontFamily": "'SF Mono', Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontWeight": "100"
+    "editor.fontWeight": "100",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Dark Pro"
 }
