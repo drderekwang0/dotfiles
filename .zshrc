@@ -103,6 +103,10 @@ source $ZSH/oh-my-zsh.sh
 # Enable plugin zsh-autosuggestions
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# Set Python user base directory
+export PYTHONUSERBASE=~/.local
+export PATH=~/.local/bin:$PATH
+
 # Enable pyenv. Place these lines to the end of the file
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
