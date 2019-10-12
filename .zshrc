@@ -107,6 +107,9 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 export PYTHONUSERBASE=~/.local
 export PATH=~/.local/bin:$PATH
 
+# Add .NET Core SDK tools
+export PATH="$PATH:/Users/derekwang/.dotnet/tools"
+
 # Enable pyenv. Place these lines to the end of the file
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
