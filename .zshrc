@@ -79,6 +79,9 @@ plugins=(
   yarn
 )
 
+# Suppress Oh My Zsh insecure completion-dependent directories warning
+ZSH_DISABLE_COMPFIX=true
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
