@@ -76,6 +76,7 @@ plugins=(
   python
   pip
   vi-mode
+  zsh-autosuggestions
 )
 
 # Suppress Oh My Zsh insecure completion-dependent directories warning
@@ -111,9 +112,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Alias for ansible-playbook
 alias apbi="ansible-playbook -i"
-
-# Enable plugin zsh-autosuggestions
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Set Python user base directory
 export PYTHONUSERBASE=~/.local
