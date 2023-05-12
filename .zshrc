@@ -125,3 +125,6 @@ export PATH="$PATH:/Users/derekwang/.dotnet/tools"
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
+
+# Enable starship
+eval "$(starship init zsh)"
