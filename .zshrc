@@ -71,12 +71,11 @@ ZSH_THEME="honukai"
 plugins=(
   git
   docker
-  cargo
-  osx
+  rust
+  macos
   python
   pip
   vi-mode
-  yarn
 )
 
 # Suppress Oh My Zsh insecure completion-dependent directories warning
