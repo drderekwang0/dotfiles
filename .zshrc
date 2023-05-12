@@ -77,6 +77,7 @@ plugins=(
   pip
   vi-mode
   zsh-autosuggestions
+  conda-zsh-completion
 )
 
 # Suppress Oh My Zsh insecure completion-dependent directories warning
