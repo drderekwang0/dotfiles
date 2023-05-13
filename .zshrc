@@ -77,6 +77,7 @@ plugins=(
   pip
   vi-mode
   zsh-autosuggestions
+  zsh-syntax-highlighting
   conda-zsh-completion
 )
 
